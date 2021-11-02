@@ -1,0 +1,41 @@
+@media (max-width:$md) {
+  .footer {
+    .container {
+      .footer__wrapper {
+        padding-top: 20px;
+        .row {
+          flex-direction: column;
+          .col {
+            display: flex;
+            flex-direction: column;
+
+            .dot {
+              display: none;
+            }
+
+            span {
+              &:first-child {
+                margin: 0;
+              }
+            }
+            .phone {
+              padding: 20px 0 20px 0;
+            }
+          }
+          .col-4 {
+            .span__desktop {
+              display: none;
+            }
+          }
+          .col-6 {
+            .span__mobile {
+              padding-top: 20px;
+              color: $third-color;
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.container {
+  max-width: $container-width;
+  margin: 0 auto;
+}
+
+
+* {
+  font-family: 'TT Norms',sans-serif;
+  text-decoration: none !important;
+
+}
+
+
+
+.dot {
+  background: $third-color;
+  border-radius: 50%;
+  height: 6px;
+  width: 6px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:$xl) {
+  .container {
+    width: $lg;
+  }
+}
+
+@media(max-width:$lg) {
+  .container {
+    width: $md;
+  }
+}
+
+@media(max-width:$md) {
+  .container {
+    width: $sm;
+  }
+}
+
+@media(max-width: $sm) {
+  .container {
+    width: $xs;
+  }
+}

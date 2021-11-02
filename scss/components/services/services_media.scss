@@ -1,0 +1,46 @@
+@media (max-width:$md) {
+  .services {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    .container {
+     
+      .row {
+        margin: 20px 10px 0 0;
+        flex-direction: column;
+
+        .col {
+          padding: 0;
+          flex-direction: row;
+          margin-top: 40px;
+           &:first-child {
+             margin-top: 0;
+           }
+          h5 {
+            max-width: 350px;
+            margin-left: 10px;
+            
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:$sm) {
+  .services {
+ 
+    .container {
+          .row {
+        .col {
+          img {
+            max-width: 64px;
+          }
+          h5 {
+            max-width: 260px;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}

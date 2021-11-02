@@ -1,0 +1,17 @@
+%bg-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+%pinkh {
+  color: $second-color;
+  cursor: pointer;
+}
+
+%bgs {
+  background-size: cover;
+  background-position: center center;
+  height: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}

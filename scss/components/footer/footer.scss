@@ -1,0 +1,47 @@
+.footer {
+  background-color: #F5F5FA;
+  .container {
+    .footer__wrapper  {
+      border-top: 4px solid $third-color;
+      padding-top: 33px;
+      padding-bottom: 20px;
+      .footer__border {
+        padding-top: 33px;
+        
+      }
+      .row {
+        padding-bottom: 20px;
+        a {
+            text-transform: uppercase;
+            color: $blue;
+          
+        }
+        .col {
+          display: flex;
+          align-items: center;
+          .phone {
+            font-weight: 500;
+             a {
+              color: black
+             }
+          }
+           .email {
+             text-transform: unset;
+           }
+           span {
+             &:first-child {
+               margin-right: 30px;
+             }
+           }
+           .span__mobile {
+             display: none;
+           }
+        }
+        .col-4 {
+          color: $third-color;
+        }
+      }
+    }
+   
+  }
+}

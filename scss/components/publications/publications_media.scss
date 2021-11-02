@@ -1,0 +1,48 @@
+@media (max-width:$lg) {
+  .publications {
+    padding-top: 20px;
+    .container {
+      p {
+        margin: 0 20px 10px 20px;
+      }
+      span {
+        margin: 0 20px 10px 20px;
+        padding-bottom: 10px;
+      }
+      .row {
+        margin-top: 0;
+        .col {
+          .publications__item {
+            display: flex;
+            flex-direction: column;
+            
+            span {
+
+            }
+          }
+        }
+      }
+    }
+    .shade__white {
+      button {
+        left: 35%;
+      }
+    }
+  }
+}
+
+  
+@media (max-width:$md) {
+  .publications {
+    .shade__white {
+      button {
+        left: 30%;
+      }
+    .container {
+      p {
+        display: none;
+      }
+    }
+  }
+}
+}

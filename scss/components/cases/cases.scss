@@ -1,0 +1,103 @@
+.cases {
+  margin-top: 97px;
+  margin-bottom: 30px;
+  .container {
+    .ex {
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+      display: flex;
+     flex-direction: row;
+     align-items: center;
+      color:$second-color;
+      text-transform: uppercase;
+      
+      .bordered {
+        padding: 20px 0 20px 22px;
+        display: flex;
+        font-size: 16px;
+        border-right: 2px solid #fff;
+        margin: 0;
+        color: $second-color;
+      }
+    
+    }
+    .row {
+      flex-wrap: nowrap;
+      margin: 0 auto;
+      background-color: $lightGray;
+      color: #686887;
+     
+      &:last-of-type {
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+      }
+       
+      h5 {
+        font-size: 24px;
+        
+      }
+   
+      .col-4,
+      .col-3,
+      .col-2,
+      .col-5 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 48px;
+       padding-bottom: 20px;
+        
+      }
+      .bordered__item {
+        border-right: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        border-top: 2px solid #fff;
+        padding-left: 20px;
+        
+         &:last-of-type {
+           border-right: none;
+         }
+        span {
+          padding-top: 20px;
+          color: $third-color;
+        }
+      }
+      
+      .bordered__item__two {
+        border-right: 2px solid #fff;
+        padding-left: 20px;
+        border-bottom: 2px solid #fff;
+       
+       
+        &:last-of-type {
+          border-bottom-right-radius: 12px;
+          border-right: none;
+        }
+      
+        span {
+          padding-top: 20px;
+          color: $third-color;
+        }
+      }
+    }
+  }
+}
+
+
+.trust__wrapper {
+  display: flex;
+  justify-content: center;
+
+
+  .trust {
+    margin-top: 30px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: calc(360px * 4);
+    justify-content: center;
+  }
+  
+}

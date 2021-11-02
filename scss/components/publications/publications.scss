@@ -1,0 +1,88 @@
+.publications {
+  background-color: $lightGray;
+  padding-top: 40px;
+  .container {
+    position: relative;
+    h5 {
+      margin-top: 20px;
+      color: $blue;
+      text-transform: uppercase;
+      font-size: 14px;
+      
+    }
+    h6 {
+      padding-top: 20px;
+      color: $blue;
+      margin-bottom: 20px;
+      margin-left: 20px;
+    }
+    h1 {
+      background: linear-gradient(45deg, $second-color 10%, #EF8080 90%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+       color: $main-color;
+    }
+    span {
+      color: $third-color;
+    }
+    p {
+      margin-top: 20px;
+      padding-top: 20px;
+      border-top: 4px solid $third-color;
+    }
+
+   
+    span,
+    p {
+      margin: 20px;
+      padding-bottom: 20px;
+      
+    }
+    .row {
+      margin-top: 40px;
+      max-height: calc(100vh - 56px);
+      overflow-x: hidden;
+      overflow-y: auto;
+      padding-bottom: 70px;
+      
+
+      .col {
+        .publications__item {
+          background-color: #fff;
+          border: 1px solid $lightGray;
+          border-radius: 12px;
+          margin-top: 20px;
+
+          
+        }
+      }
+    }
+  
+  }
+  .shade__white {
+    background-image: url(./../images/shade2.svg);
+    position: absolute;
+    background-size: cover;
+    right: 1px;
+    height: 200px;
+    width: 100%;
+    bottom: 0px;
+    pointer-events: none;
+     button {
+       position: absolute;
+       left: 40%;
+       bottom: 40px;
+       padding: 10px;
+       border: none;
+       box-shadow: 0px 1px 11px -2px $blue;
+       border-radius: 20px;
+       width: 250px;
+       background-color: $blue;
+       height: 50px;
+       font-weight: 700;
+       font-size: 14px;
+       color: #fff;
+       cursor: pointer;
+     }
+  }
+}

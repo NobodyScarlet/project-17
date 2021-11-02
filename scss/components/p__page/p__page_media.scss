@@ -1,0 +1,52 @@
+@media (max-width:$md) {
+  .p__page {
+    background-color: $main-color;
+    display: none;
+  }
+ .p__page-carousel { 
+   color:#fff;
+   padding: 0 20px 90px 20px;
+  background-color: $main-color;
+   display: block;
+  .container {
+    .carousel-indicators {
+      margin-bottom: -40px;
+      
+    button {
+      width: 16px;
+      height: 16px;
+      border: 1px solid $blue ;
+      border-radius: 10px ;
+      background-color: $blue;
+      margin: 0 7px 0 7px;
+    }
+    }
+    .carousel-inner {
+
+      .carousel-item {
+        .row {
+          .col-12 {
+            h5 {
+              background: linear-gradient(45deg, $second-color 5%, #EF8080 95%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              color: $main-color;
+            }
+            h1 {
+            
+              margin-bottom: 20px;
+            }
+            h6,
+            span {
+              color: $third-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.carousel-control-prev-icon {
+  background-image: none;
+}
+}

@@ -1,0 +1,121 @@
+.head {
+  background: linear-gradient(40deg , transparent 60%, #7A425E 87.53%), url("./../images/Pattern Splash.svg" );
+  background-color: $main-color;
+  padding: 56px 0 179px 0;
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  
+   .container {
+    .navbar {
+      display: none;
+    }
+     .row {
+       position: relative;
+       
+       .scroll__down {
+         position: absolute;
+         bottom: 145px;
+         display: flex;
+         justify-content: center;
+         
+       }
+       .scroll__item {
+        color: #fff;
+        cursor: pointer;
+        &:hover {
+          color: $second-color;
+        }
+       }
+        .leg {
+          background-image: url("./../images/Symbol Long leg.svg");
+          background-position: center center;
+          background-repeat: no-repeat;
+          position: relative;
+          height: 800px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          
+
+          span {
+            position: absolute;
+            top: 24%;
+            font-size: 38px;
+            max-width: 600px;
+            text-align: center;
+          }
+        }
+       .shade {
+         background-image: url(./../images/Shade.svg);
+         background-size: cover;
+         height: 200px;
+         width: 100%;
+         position: absolute;
+         bottom: 145px;
+         pointer-events: none;
+         img {
+          position: absolute;
+          top: 575px;
+         }
+       }
+       .navbar__desktop{
+         .adress {
+           margin-left: 20px;
+         }
+          .leng {
+            color: #fff; 
+            font-weight: 700;
+            font-size: 12px;
+            padding: 6px;
+            
+            &:hover {
+              border: none;
+              border-radius: 8px;
+              background-color: $second-color;
+            }
+          }
+         
+        
+         .navigation {
+           flex-wrap: wrap;
+           li {
+             padding-left: 15px;
+             list-style: none;
+             font-size: 18px;
+             
+             a {
+               color: #fff;
+               
+               &:hover {
+                @extend %pinkh;
+               }
+             }
+             
+           }
+         }
+         img {
+           vertical-align: top  ;
+           margin-left: 3px;
+           cursor: pointer;
+         }
+         span {
+           font-weight: 300;
+        
+          a {
+            
+            margin-right: 3px;
+            font-weight: 500;
+            color: #fff;
+
+            &:hover {
+              @extend %pinkh;
+            }
+          }
+         }
+         
+       }
+     }
+   }
+}

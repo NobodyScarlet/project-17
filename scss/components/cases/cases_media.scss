@@ -1,0 +1,42 @@
+@media (max-width:$lg) {
+  .cases {
+    .container {
+      .row {
+        h5 {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:$md) {
+  .cases {
+    .container {
+      .row {
+        display: flex;
+        flex-direction: column;
+
+        .bordered__item {
+          border: none;
+          border-top: 2px solid #fff;
+          padding-top: 20px;
+
+          span {
+            padding-top: 10px;
+          }
+        }
+        .bordered__item__two {
+          border: none;
+          border-top: 2px solid #fff;
+          padding-top: 20px;
+
+          span {
+            padding-top: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+

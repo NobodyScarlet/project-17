@@ -1,0 +1,13 @@
+@mixin bgr($pd, $url, $bgp) {
+  @extend %bg-img;
+  background-image: url($url);
+  background-position: $bgp;
+  padding: $pd;
+}
+
+@mixin bgs ($url, $mr) {
+  @extend %bgs;
+  background-image: url($url);
+  margin: $mr;
+}
+  
