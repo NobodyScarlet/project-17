@@ -188,11 +188,19 @@
       bottom: 113px;
       display: flex;
       justify-content: center; }
-    .head .container .row .scroll__item {
-      color: #fff;
-      cursor: pointer; }
-      .head .container .row .scroll__item:hover {
-        color: #F0145A; }
+      .head .container .row .scroll__down .accordion .accordion-item:last-of-type {
+        border: none; }
+      .head .container .row .scroll__down .accordion .accordion-item .accordion-header {
+        border: 1px solid #fff;
+        width: 55px;
+        height: 55px;
+        border-radius: 50%; }
+        .head .container .row .scroll__down .accordion .accordion-item .accordion-header .accordion-button {
+          border-radius: 50%; }
+          .head .container .row .scroll__down .accordion .accordion-item .accordion-header .accordion-button::after {
+            margin: 0 auto; }
+      .head .container .row .scroll__down .accordion .accordion-item .accordion-body iframe {
+        border-radius: 20px; }
     .head .container .row .leg {
       background-image: url("./../images/Symbol Long leg.svg");
       background-position: center center;

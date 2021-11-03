@@ -20,14 +20,33 @@
          display: flex;
          justify-content: center;
          
-       }
-       .scroll__item {
-        color: #fff;
-        cursor: pointer;
-        &:hover {
-          color: $second-color;
+         .accordion {
+          .accordion-item {
+            &:last-of-type {
+              border: none;
+            }
+            .accordion-header {
+              border: 1px solid #fff;
+              width: 55px;
+              height: 55px;
+              border-radius: 50%;
+              
+              .accordion-button {
+                border-radius: 50%;
+                &::after {
+                  margin: 0 auto;
+                }
+              }
+            }
+            .accordion-body {
+              iframe {
+                border-radius: 20px;
+              }
+            }
+          }
         }
        }
+       
         .leg {
           background-image: url("./../images/Symbol Long leg.svg");
           background-position: center center;
