@@ -135,6 +135,22 @@
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px; }
 
+.team-carousel .container .carousel-indicators button {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #24A3FF;
+  border-radius: 10px;
+  background-color: #24A3FF;
+  margin: 0 7px 0 7px; }
+
+.dot {
+  width: 6px;
+  height: 6px;
+  background: #B3B3BA;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 10px; }
+
 .container {
   max-width: 1320px;
   margin: 0 auto; }
@@ -142,14 +158,6 @@
 * {
   font-family: 'TT Norms',sans-serif;
   text-decoration: none !important; }
-
-.dot {
-  background: #B3B3BA;
-  border-radius: 50%;
-  height: 6px;
-  width: 6px;
-  margin-right: 10px;
-  margin-left: 10px; }
 
 @media (max-width: 1200px) {
   .container {
@@ -167,7 +175,7 @@
   background: linear-gradient(40deg, transparent 60%, #7A425E 87.53%), url("./../images/Pattern Splash.svg");
   background-color: #323264;
   padding: 56px 0 179px 0;
-  height: 800px;
+  height: 757px;
   background-size: cover;
   background-position: center;
   color: #fff; }
@@ -177,7 +185,7 @@
     position: relative; }
     .head .container .row .scroll__down {
       position: absolute;
-      bottom: 145px;
+      bottom: 113px;
       display: flex;
       justify-content: center; }
     .head .container .row .scroll__item {
@@ -190,7 +198,7 @@
       background-position: center center;
       background-repeat: no-repeat;
       position: relative;
-      height: 800px;
+      height: 710px;
       display: flex;
       align-items: center;
       justify-content: center; }
@@ -201,12 +209,12 @@
         max-width: 600px;
         text-align: center; }
     .head .container .row .shade {
+      width: 100%;
+      height: 200px;
       background-image: url(./../images/Shade.svg);
       background-size: cover;
-      height: 200px;
-      width: 100%;
       position: absolute;
-      bottom: 145px;
+      bottom: 98px;
       pointer-events: none; }
       .head .container .row .shade img {
         position: absolute;
@@ -230,6 +238,8 @@
         font-size: 18px; }
         .head .container .row .navbar__desktop .navigation li a {
           color: #fff; }
+          .head .container .row .navbar__desktop .navigation li a:hover {
+            border-bottom: 2px solid; }
     .head .container .row .navbar__desktop img {
       vertical-align: top;
       margin-left: 3px;
@@ -290,7 +300,7 @@
   display: flex;
   justify-content: center;
   color: #fff;
-  padding-top: 80px;
+  padding-top: 102px;
   display: flex; }
   .p__page .container .d-flex .tab-content .tab-pane .info-block__text {
     margin-left: 40px; }
@@ -420,48 +430,89 @@
   margin-top: 40px; }
   .team-carousel .container .carousel-indicators {
     margin-bottom: -40px; }
-    .team-carousel .container .carousel-indicators button {
-      width: 16px;
-      height: 16px;
-      border: 1px solid #24A3FF;
-      border-radius: 10px;
-      background-color: #24A3FF;
-      margin: 0 7px 0 7px; }
   .team-carousel .container .carousel-inner {
     background-color: #F5F5FA;
     border: 1px solid #fff;
     border-radius: 12px; }
-    .team-carousel .container .carousel-inner .carousel-item .row .col-7 {
-      margin-top: 40px;
-      margin-left: 40px; }
-      .team-carousel .container .carousel-inner .carousel-item .row .col-7 h5 {
-        color: #24A3FF; }
-      .team-carousel .container .carousel-inner .carousel-item .row .col-7 h1 {
-        background: linear-gradient(45deg, #F0145A 10%, #EF8080 90%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        color: #323264;
-        margin-bottom: 20px; }
-      .team-carousel .container .carousel-inner .carousel-item .row .col-7 h6,
-      .team-carousel .container .carousel-inner .carousel-item .row .col-7 span {
-        color: #B3B3BA; }
+    .team-carousel .container .carousel-inner .carousel-item .row {
+      flex-wrap: nowrap; }
+      .team-carousel .container .carousel-inner .carousel-item .row .col-4 .smileMan {
+        width: 413px;
+        height: 500px;
+        background-image: url(./../images/smileMan.png);
+        background-position: center center;
+        background-size: cover; }
+      .team-carousel .container .carousel-inner .carousel-item .row .col-4 .glassesMan {
+        background-image: url(./../images/glassesMan.png);
+        width: 413px;
+        height: 500px;
+        background-position: center center;
+        background-size: cover; }
+      .team-carousel .container .carousel-inner .carousel-item .row .col-4 .blondMan {
+        background-image: url(./../images/BlondMan.png);
+        width: 413px;
+        height: 500px;
+        background-position: center center;
+        background-size: cover; }
+      .team-carousel .container .carousel-inner .carousel-item .row .col-7 {
+        margin-top: 20px;
+        margin-left: 25px; }
+        .team-carousel .container .carousel-inner .carousel-item .row .col-7 h5 {
+          color: #24A3FF; }
+        .team-carousel .container .carousel-inner .carousel-item .row .col-7 h1 {
+          background: linear-gradient(45deg, #F0145A 10%, #EF8080 90%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          color: #323264;
+          margin-bottom: 20px; }
+        .team-carousel .container .carousel-inner .carousel-item .row .col-7 h6,
+        .team-carousel .container .carousel-inner .carousel-item .row .col-7 span {
+          color: #B3B3BA; }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-image: none; }
 
+@media (max-width: 1200px) {
+  .team-carousel .container .carousel-inner .carousel-item .row .col-4 .smileMan,
+  .team-carousel .container .carousel-inner .carousel-item .row .col-4 .glassesMan,
+  .team-carousel .container .carousel-inner .carousel-item .row .col-4 .blondMan {
+    width: 300px;
+    height: 400px; } }
 @media (max-width: 991px) {
+  .team-carousel .container .carousel-inner .carousel-item .row .col-4 .smileMan,
+  .team-carousel .container .carousel-inner .carousel-item .row .col-4 .glassesMan,
+  .team-carousel .container .carousel-inner .carousel-item .row .col-4 .blondMan {
+    width: 250px;
+    height: 300px; }
   .team-carousel .container .carousel-inner .carousel-item .row .col-7 h1 {
     font-size: 24px;
     margin-bottom: 10px; } }
 @media (max-width: 768px) {
-  .team-carousel .container .carousel-inner .carousel-item .row .col-4 {
-    display: none; }
-  .team-carousel .container .carousel-inner .carousel-item .row .col-7 {
-    margin: 20px; } }
+  .team-carousel .container .carousel-inner .carousel-item .row {
+    flex-direction: column-reverse; }
+    .team-carousel .container .carousel-inner .carousel-item .row .col-4 {
+      position: absolute; }
+      .team-carousel .container .carousel-inner .carousel-item .row .col-4 .smileMan,
+      .team-carousel .container .carousel-inner .carousel-item .row .col-4 .glassesMan,
+      .team-carousel .container .carousel-inner .carousel-item .row .col-4 .blondMan {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        position: relative;
+        bottom: 20px;
+        left: 20px; }
+    .team-carousel .container .carousel-inner .carousel-item .row .col-7 {
+      margin: 20px; }
+      .team-carousel .container .carousel-inner .carousel-item .row .col-7 h1 {
+        margin-bottom: 20px; }
+      .team-carousel .container .carousel-inner .carousel-item .row .col-7 h6,
+      .team-carousel .container .carousel-inner .carousel-item .row .col-7 span {
+        margin-left: 70px; } }
 @media (max-width: 576px) {
   .team-carousel .container .carousel-inner .carousel-item .row .col-7 h1 {
-    font-size: 32px; } }
+    font-size: 32px;
+    margin-right: 60px; } }
 .cases {
   margin-top: 97px;
   margin-bottom: 30px; }

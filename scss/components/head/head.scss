@@ -2,7 +2,7 @@
   background: linear-gradient(40deg , transparent 60%, #7A425E 87.53%), url("./../images/Pattern Splash.svg" );
   background-color: $main-color;
   padding: 56px 0 179px 0;
-  height: 800px;
+  height: 757px;
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -16,7 +16,7 @@
        
        .scroll__down {
          position: absolute;
-         bottom: 145px;
+         bottom: 113px;
          display: flex;
          justify-content: center;
          
@@ -33,7 +33,7 @@
           background-position: center center;
           background-repeat: no-repeat;
           position: relative;
-          height: 800px;
+          height: 710px;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -48,12 +48,11 @@
           }
         }
        .shade {
+        @include wh (100%, 200px);
          background-image: url(./../images/Shade.svg);
          background-size: cover;
-         height: 200px;
-         width: 100%;
          position: absolute;
-         bottom: 145px;
+         bottom: 98px;
          pointer-events: none;
          img {
           position: absolute;
@@ -90,6 +89,7 @@
                
                &:hover {
                 @extend %pinkh;
+                border-bottom: 2px solid;
                }
              }
              

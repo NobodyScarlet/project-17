@@ -5,12 +5,7 @@
       margin-bottom: -40px;
       
     button {
-      width: 16px;
-      height: 16px;
-      border: 1px solid $blue ;
-      border-radius: 10px ;
-      background-color: $blue;
-      margin: 0 7px 0 7px;
+      @extend %blue-dots;
     }
     }
     .carousel-inner {
@@ -20,9 +15,30 @@
 
       .carousel-item {
         .row {
+          flex-wrap: nowrap;
+          .col-4 {
+            .smileMan {
+              @include wh (413px, 500px);
+              background-image: url(./../images/smileMan.png);
+              background-position: center center;
+              background-size: cover;
+            }
+            .glassesMan {
+              background-image: url(./../images/glassesMan.png);
+              @include wh (413px, 500px);
+              background-position: center center;
+              background-size: cover;
+            }
+            .blondMan {
+            background-image: url(./../images/BlondMan.png);
+            @include wh (413px, 500px);
+              background-position: center center;
+              background-size: cover;
+          }
+        }
           .col-7 {
-            margin-top: 40px;
-            margin-left: 40px;
+            margin-top: 20px;
+            margin-left: 25px;
             h5 {
               color: $blue;
             }

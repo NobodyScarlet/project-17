@@ -13,8 +13,7 @@
       margin-bottom: -40px;
       
     button {
-      width: 16px;
-      height: 16px;
+      @include wh (16px, 16px);
       border: 1px solid $blue ;
       border-radius: 10px ;
       background-color: $blue;

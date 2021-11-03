@@ -1,11 +1,10 @@
 .p__page {
         background-color: $main-color;
-        width: 100vw;
-        height: 475px;
+        @include wh (100vw, 475px);
         display: flex;
         justify-content: center;
         color: #fff;
-        padding-top: 80px;
+        padding-top: 102px;
         display: flex;
          
          .container {

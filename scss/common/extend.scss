@@ -15,3 +15,19 @@
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
+
+%blue-dots {
+  @include wh (16px, 16px);
+  border: 1px solid $blue;
+  border-radius: 10px;
+  background-color: $blue;
+  margin: 0 7px 0 7px;
+}
+
+%dot {
+  @include wh (6px, 6px);
+  background: $third-color;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 10px;
+}

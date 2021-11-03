@@ -1,9 +1,36 @@
+@media (max-width:$xl) {
+  .team-carousel {
+    .container {
+      .carousel-inner {
+        .carousel-item {
+          .row {
+            .col-4 {
+              .smileMan,
+              .glassesMan,
+              .blondMan {
+                @include wh (300px, 400px)
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width:$lg) {
   .team-carousel {
     .container {
       .carousel-inner {
         .carousel-item {
           .row {
+            .col-4 {
+              .smileMan,
+              .glassesMan,
+              .blondMan {
+                @include wh (250px, 300px)
+              }
+            }
             .col-7 {
               h1 {
                 font-size: 24px;
@@ -23,11 +50,29 @@
       .carousel-inner {
         .carousel-item {
           .row {
+            flex-direction: column-reverse;
             .col-4 {
-              display: none;
+              position: absolute;
+              .smileMan,
+              .glassesMan,
+              .blondMan {
+                @include wh (60px, 60px);
+                border-radius: 50%;
+                position: relative;
+                bottom: 20px;
+                left: 20px;
+              }
             }
             .col-7 {
                 margin: 20px;
+                
+                h1 {
+                  margin-bottom: 20px;
+                }
+                h6,
+                span {
+                  margin-left: 70px;
+                }
             }
           }
         }
@@ -45,6 +90,7 @@
             .col-7 {
               h1 {
                 font-size: 32px;
+                margin-right: 60px;
               }
             }
           }
