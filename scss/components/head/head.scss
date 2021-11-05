@@ -19,8 +19,10 @@
          bottom: 113px;
          display: flex;
          justify-content: center;
+        
          
          .accordion {
+           
           .accordion-item {
             &:last-of-type {
               border: none;
@@ -30,15 +32,21 @@
               width: 55px;
               height: 55px;
               border-radius: 50%;
+
               
+              
+
               .accordion-button {
                 border-radius: 50%;
+
+                
                 &::after {
                   margin: 0 auto;
                 }
               }
             }
             .accordion-body {
+              
               iframe {
                 border-radius: 20px;
               }
