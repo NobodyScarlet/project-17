@@ -83,6 +83,15 @@
        font-size: 14px;
        color: #fff;
        cursor: pointer;
+        pointer-events: visible;
+        transition: .3s ease;
+
+        &:hover {
+          transform: scale(1.2);
+        }
+        &:active {
+          transform: scale(1);
+        }
      }
   }
 }

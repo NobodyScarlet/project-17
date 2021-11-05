@@ -674,7 +674,13 @@
       font-weight: 700;
       font-size: 14px;
       color: #fff;
-      cursor: pointer; }
+      cursor: pointer;
+      pointer-events: visible;
+      transition: .3s ease; }
+      .publications .shade__white button:hover {
+        transform: scale(1.2); }
+      .publications .shade__white button:active {
+        transform: scale(1); }
 
 @media (max-width: 991px) {
   .publications {
