@@ -36,11 +36,7 @@
         font-size: 24px;
         
       }
-   
-      .col-4,
-      .col-3,
-      .col-2,
-      .col-5 {
+   .cases__item {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -97,6 +93,7 @@
     justify-content: center;
     max-width: calc(360px * 4);
     justify-content: center;
+     
   }
   
 }
