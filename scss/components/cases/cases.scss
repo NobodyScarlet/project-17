@@ -81,19 +81,16 @@
 }
 
 
-.trust__wrapper {
-  display: flex;
-  justify-content: center;
-
-
-  .trust {
-    margin-top: 30px;
-     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: calc(360px * 4);
-    justify-content: center;
-     
+.trust {
+  margin-top: 30px;
+  .container-fluid {
+    .row {
+      .trust__item {
+        padding: 0;
+        img {
+          width: 100%;
+        }
+      }
+    }
   }
-  
 }

@@ -23,11 +23,6 @@
         }
       }
     }
-    .shade__white {
-      button {
-        left: 35%;
-      }
-    }
   }
 }
 
@@ -35,9 +30,6 @@
 @media (max-width:$md) {
   .publications {
     .shade__white {
-      button {
-        left: 30%;
-      }
     .container {
       p {
         display: none;

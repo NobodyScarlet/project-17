@@ -1,6 +1,6 @@
 .p__page {
         background-color: $main-color;
-        @include wh (100vw, 475px);
+        height: 475px;
         display: flex;
         justify-content: center;
         color: #fff;
