@@ -579,9 +579,10 @@
 
 .trust {
   margin-top: 30px; }
-  .trust .container-fluid .row .trust__item {
-    padding: 0; }
-    .trust .container-fluid .row .trust__item img {
+  .trust .container-fluid .row .trust__wrapper {
+    padding: 0;
+    display: flex; }
+    .trust .container-fluid .row .trust__wrapper .trust__item img {
       width: 100%; }
 
 @media (max-width: 991px) {
@@ -602,7 +603,12 @@
       border-top: 2px solid #fff;
       padding-top: 20px; }
       .cases .container .row .bordered__item__two span {
-        padding-top: 10px; } }
+        padding-top: 10px; }
+
+  .trust .container-fluid .row {
+    flex-direction: column; }
+    .trust .container-fluid .row .trust__wrapper {
+      width: 100%; } }
 .publications {
   background-color: #F5F5FA;
   padding-top: 40px; }

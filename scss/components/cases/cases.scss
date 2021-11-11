@@ -85,10 +85,13 @@
   margin-top: 30px;
   .container-fluid {
     .row {
-      .trust__item {
+      .trust__wrapper {
         padding: 0;
-        img {
-          width: 100%;
+        display: flex;
+        .trust__item {
+          img {
+            width: 100%;
+          }
         }
       }
     }

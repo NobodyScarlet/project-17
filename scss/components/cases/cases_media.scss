@@ -38,5 +38,15 @@
       }
     }
   }
+  .trust {
+    .container-fluid {
+      .row {
+        flex-direction: column;
+        .trust__wrapper {
+         width: 100%;
+        }
+      }
+    }
+  }
 }
 
