@@ -1,0 +1,80 @@
+@media (max-width:$md) {
+  .head-white {
+    padding: 0;
+
+    .container {
+      
+      .navbar {
+        display: block;
+        .container-fluid {
+          align-items: stretch;
+          .logo__wrapper {
+            margin: 0;
+            width: 100px;
+            .navbar-brand{
+              img {
+                max-width: 207px;
+                margin-top: 20px;
+              }
+            }
+            .leng {
+              color: $third-color; 
+              font-weight: 700;
+              font-size: 12px;
+              padding: 6px;
+              
+              &:hover {
+                border: none;
+                border-radius: 8px;
+                background-color: $second-color;
+              }
+            }
+          }
+          .offcanvas {
+            background: linear-gradient(40deg , transparent 60%, #7A425E 87.53%);
+            width: 150px;
+
+            .offcanvas-body {
+              .navbar-nav {
+               .nav-item {
+                 a {
+                  color: $third-color;
+                 }
+               }
+              }
+            }
+          }
+            .navbar__wrapper {
+              justify-content: space-between;
+              display: flex;
+              flex-direction: column;
+               
+               .phone {
+                 a {
+                  color: $third-color;
+                 }
+                 
+               }
+
+              .navbar-toggler {
+                border: none;
+                color: $third-color;
+                text-align: end;
+              }
+            }
+        }
+      }
+      .row {
+        .navbar__desktop {
+          display: none;
+          a,
+          span,
+          .dot {
+            display: none;
+          }
+        }
+        
+          }
+      }
+    }
+}

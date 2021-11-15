@@ -1,0 +1,79 @@
+.head-white {
+  padding: 56px 0 102px 0;
+  background-size: cover;
+  background-position: center;
+  color: $third-color;
+  
+   .container {
+    .navbar {
+     display: none;
+    }
+     .row {
+       position: relative;
+          .navbar__desktop{
+         .adress {
+           margin-left: 20px;
+         }
+          .leng {
+            color: $third-color; 
+            font-weight: 700;
+            font-size: 12px;
+            padding: 6px;
+            
+            &:hover {
+              color: #fff;
+              border: none;
+              border-radius: 8px;
+              background-color: $second-color;
+            }
+          }
+         
+        
+         .navigation {
+           flex-wrap: wrap;
+           li {
+             padding-left: 15px;
+             list-style: none;
+             font-size: 18px;
+             
+             a {
+               color: $blue;
+               
+               &:hover {
+                @extend %pinkh;
+                border-bottom: 2px solid;
+               }
+             }
+             
+           }
+         }
+         img {
+           vertical-align: top  ;
+           margin-left: 3px;
+           cursor: pointer;
+         }
+         .about_us {
+           font-size: 38px;
+         }
+         .symbol {
+           width: 50px;
+         }
+         span {
+           font-weight: 300;
+        
+          a {
+            
+            margin-right: 3px;
+            font-weight: 500;
+            color: $third-color;
+
+            &:hover {
+              @extend %pinkh;
+            }
+          }
+         }
+         
+       }
+     }
+   }
+}

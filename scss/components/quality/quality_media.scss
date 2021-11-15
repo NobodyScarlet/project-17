@@ -1,0 +1,15 @@
+@media (max-width:$md) {
+  .quality {
+    .container {
+      .quality__wrapper {
+         flex-direction: column;
+
+         .col-7 {
+           p {
+             font-size: 18px;
+           }
+         }
+      }
+    }
+  }
+}

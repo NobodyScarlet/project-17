@@ -31,3 +31,10 @@
   margin-right: 10px;
   margin-left: 10px;
 }
+
+%clr {
+  background: linear-gradient(45deg, $second-color 10%, #EF8080 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   color: $main-color;
+}

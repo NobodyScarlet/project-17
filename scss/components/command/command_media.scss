@@ -1,0 +1,24 @@
+@media (max-width:$lg) {
+  .command {
+    .container-fluid {
+      img {
+  object-fit: none;
+  margin: 0;
+  height: 65vw;
+      }
+      span {
+        font-size: 10vw;
+      }
+    }
+  }
+}
+
+@media (max-width:$sm) {
+  .command {
+    .container-fluid {
+      img {
+        height: 100vw;
+      }
+    }
+  }
+}

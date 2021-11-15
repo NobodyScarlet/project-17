@@ -1,0 +1,19 @@
+.quality {
+  margin-top: 20px;
+  .container {
+    .quality__wrapper  {
+      padding-left: 100px;
+      .col-7 {
+        p {
+          padding-right: 25px;
+          font-size: $fs;
+        }
+      }
+      .col-4 {
+        h1 {
+          @extend %clr;
+        }
+      }
+    }
+  }
+}
