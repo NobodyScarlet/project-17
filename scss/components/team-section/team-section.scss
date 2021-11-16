@@ -1,0 +1,23 @@
+.team-section {
+  margin-bottom: 20px;
+  .container {
+    .row {
+      .team__item {
+        .team__img {
+          width: 100%;
+        }
+        .section__wrapper {
+          width: 100%;
+          margin: 20px 0 40px 0;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          span {
+            color: $third-color;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@media (max-width:$lg) {
+  .article-team {
+    .container {
+      h1 {
+        width: 75vw;
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media (max-width:$md) {
+  .article-team {
+    margin-bottom: 20px;
+    
+    .container {
+      h1 {
+        width: 90vw;
+      }
+    }
+  }
+}

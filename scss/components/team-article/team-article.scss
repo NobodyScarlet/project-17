@@ -1,0 +1,10 @@
+.article-team {
+  margin-bottom: 80px;
+  .container {
+    h1 {
+      width: 800px;
+      margin: 0 auto;
+      @extend %clr;
+    }
+  }
+}
