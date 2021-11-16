@@ -1,3 +1,17 @@
+@media (max-width:$lg) {
+  .footer {
+    .container {
+      .footer__wrapper {
+        .row {
+          .col {
+            flex-wrap: wrap;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width:$md) {
   .footer {
     .container {

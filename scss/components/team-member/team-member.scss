@@ -1,0 +1,35 @@
+.team-member {
+  .container {
+    .row {
+      padding-left: 100px;
+      .col-6 {
+        width: 450px;
+        padding-right: 41px;
+        img {
+          width: 100%;
+        }
+      }
+      .col {
+         margin-bottom: 80px;
+        h1 {
+          @extend %clr;
+        }
+        span {
+          color: $third-color;
+        }
+        a {
+          color: $blue;
+        }
+        .team__wrapper {
+          width: 576px;
+          padding-top: 40px;
+          border-top: 4px solid $third-color;
+
+          h5 {
+            margin-top: 40px;
+          }
+        }
+      }
+    }
+  }
+}
