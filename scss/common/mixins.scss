@@ -16,3 +16,14 @@
   height: $h;
 }
 
+@mixin btna ($p) {
+  position: $p;
+  @extend %blueButton;
+}
+
+@mixin inputs ($p, $w, $h) {
+  @extend %inputs;
+  padding: $p;
+  width: $w;
+  height: $h;
+}

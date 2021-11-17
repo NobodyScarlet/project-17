@@ -1,0 +1,94 @@
+
+.form {
+  margin-bottom: 80px;
+  .container {
+    .row {
+      .form__item {
+        padding: 20px 0 20px 20px;
+        width: 527px;
+        background-color: $lightGray;
+        border-radius: 12px;
+
+        legend {
+          color: $third-color;
+          text-transform: uppercase;
+          font-size: 14px;
+        }
+
+        h2 {
+          @extend %clr;
+          text-transform: none;
+        }
+ 
+        input {
+          @include inputs (0 0 0 10px, 487px, 47px);
+           
+          &::placeholder {
+            color: $third-color;
+          }
+        }
+        textarea {
+          @include inputs (10px 0 0 10px, 487px, 180px);
+          resize: none;
+
+          &::placeholder {
+            color: $third-color;
+          }
+        }
+        button {
+          @extend %blueButton;
+          margin: 0 auto;
+
+          &:hover {
+            transform: scale(1.2);
+          }
+          &:active {
+            transform: scale(1);
+          }
+        }
+      }
+      .adress {
+        .adress__item {
+          width: 200px;
+          margin-bottom: 20px;
+        }
+        .phone {
+          border-top: 4px solid $lightGray;
+          padding-top: 30px;
+          padding-bottom: 20px;
+          width: 412px;
+         a {
+           color: black;
+         }
+        }
+        .email {
+          color: $blue;
+          border-bottom: 4px solid $lightGray;
+          padding-bottom: 40px;
+          width: 412px;
+        }
+        font-size: 21px;
+        img {
+          width: 38px;
+        }
+      }
+      .facebook {
+         color: $blue;
+         margin-top: 20px;
+         font-size: 12px;
+         display: flex;
+         width: 165px;
+         text-transform: uppercase;
+         font-weight: 500;
+         
+         img {
+           margin-right: 10px;
+         }
+      }
+    }
+  }
+}
+
+.map {
+  background-color: $lightGray;
+}

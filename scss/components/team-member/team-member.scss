@@ -23,9 +23,10 @@
         .team__wrapper {
           width: 576px;
           padding-top: 40px;
-          border-top: 4px solid $third-color;
+          border-top: 4px solid $lightGray;
 
           h5 {
+            text-transform: uppercase;
             margin-top: 40px;
           }
         }
