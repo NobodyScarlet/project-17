@@ -112,7 +112,7 @@
         </div>
       </div>
       <div class="button__wrapper d-flex justify-content-center align-items-center">
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        <button type="button" class="bluebtn btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
           Безкоштовна консультація
         </button>
       </div>
@@ -261,20 +261,22 @@
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Understood</button>
-      </div>
+      <fieldset class="form__item d-flex flex-column justify-content-center">
+        <div class="close text-end"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+        <legend><h2>Ми хотіли б Вам допомогти</h2></legend>
+         <input type="name" placeholder="Iм’я"> 
+         <textarea name="comments" id="" cols="30" rows="10" placeholder="Повідомлення"></textarea>
+         <legend>Як вам відповісти?</legend>
+         <input type="telephone" placeholder="Номер телефона">
+         <input type="email" placeholder="Чи email">
+         <button class="btnblue" type="submit">Надіслати запит</button>
+      </fieldset>
     </div>
   </div>
 </div>
+
+
+
       <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

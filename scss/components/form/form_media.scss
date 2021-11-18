@@ -73,6 +73,10 @@
           }
           input {
             width: 335px;
+
+            &:nth-of-type(2) {
+              margin-bottom: 10px;
+            }
           }
           textarea {
             width: 335px;
@@ -102,5 +106,9 @@
       }
     }
   }
+  .form__item {
+    width: 100vw;
+  }
 }
+
 

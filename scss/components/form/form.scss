@@ -3,50 +3,6 @@
   margin: 80px 0 80px 0;
   .container {
     .row {
-      .form__item {
-        padding: 20px 0 20px 20px;
-        width: 527px;
-        background-color: $lightGray;
-        border-radius: 12px;
-
-        legend {
-          color: $third-color;
-          text-transform: uppercase;
-          font-size: 14px
-        }
-
-        h2 {
-          @extend %clr;
-          text-transform: none;
-        }
- 
-        input {
-          @include inputs (0 0 0 10px, 487px, 47px);
-           
-          &::placeholder {
-            color: $third-color;
-          }
-        }
-        textarea {
-          @include inputs (10px 0 0 10px, 487px, 180px);
-          resize: none;
-
-          &::placeholder {
-            color: $third-color;
-          }
-        }
-        button {
-          @extend %blueButton;
-          margin: 0 auto;
-
-          &:hover {
-            transform: scale(1.2);
-          }
-          &:active {
-            transform: scale(1);
-          }
-        }
-      }
       .adress {
         .adress__item {
           width: 200px;
