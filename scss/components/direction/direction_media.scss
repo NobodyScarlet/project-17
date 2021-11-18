@@ -1,0 +1,15 @@
+@media (max-width:$xl) {
+  .direction {
+    .direction__wrapper {
+      width: 100vw;
+    }
+  }
+}
+
+@media (max-width:$md) {
+  .direction {
+    .direction__wrapper {
+      padding-bottom: 20px;
+    }
+  }
+}

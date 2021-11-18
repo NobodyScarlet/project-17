@@ -41,3 +41,19 @@
 .services-head {
   background-color: $main-color;
 }
+
+.cayboard-head {
+  background-image: url(./../images/cayboard.png);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.bg__shadow {
+  @include bgs ("./../images/shadowbg1.svg", 0 20px 0 20px);
+  
+}
+.bg__item {
+  @include bgs ("./../images/shadowbg2.svg", 0 40px 0 40px);
+  
+}

@@ -1,0 +1,28 @@
+.direction {
+  color: #fff;
+  font-size: 18px;
+  background-color: $main-color;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  .direction__wrapper {
+    border-top: 4px solid $lightGray;
+    padding: 20px 0 80px 0;
+    width: 1090px;
+    margin: 0 auto;
+
+    .container {
+      .row {
+        .col {
+          ul {
+            li {
+              color: red;
+              span {
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

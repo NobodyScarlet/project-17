@@ -16,6 +16,15 @@
     .row {
       margin-top: 68px;
       .col {
+        .image__transition {
+          transform: scale(1);
+          transition: 0.3s;
+
+          &:hover {
+            transition: 0.3s;
+            transform: scale(1.2);
+          }
+        }
         display: flex;
         flex-wrap: wrap;
         align-content: center;
@@ -31,18 +40,7 @@
           font-size: 18px;
           color: #fff
         }
-        img {
-         
-        }
       }
     }
   }
-}
-.bg__shadow {
-  @include bgs ("./../images/shadowbg1.svg", 0 20px 0 20px);
-  
-}
-.bg__item {
-  @include bgs ("./../images/shadowbg2.svg", 0 40px 0 40px);
-  
 }

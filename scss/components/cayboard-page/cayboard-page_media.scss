@@ -1,0 +1,47 @@
+@media (max-width:$lg) {
+  .services__item {
+    .container {
+      .row {
+        .col {
+          p {
+          width: 700px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:$md) {
+  .services__item {
+    .container {
+      .row {
+        .col {
+          p {
+            width: 550px;
+          }
+        }
+      }
+    }
+  }
+  .button__wrapper {
+    padding-bottom: 40px;
+  }
+}
+
+
+@media (max-width:$sm) {
+  .services__item {
+    .container {
+      .row {
+        .col {
+          p {
+            width: 95vw;
+          }
+        }
+      }
+    }
+  }
+}
+
+

@@ -1,0 +1,37 @@
+.services__item {
+  .container {
+    .row {
+      .col {
+        img {
+          width: 92px;
+        }
+        h1 {
+          @extend %clr;
+          margin-top: 20px;
+        }
+        p {
+          font-size: 21px;
+          width: 860px;
+          color: #fff;
+         }
+        }
+      }
+    }
+  }
+  .button__wrapper {
+    background-color: $main-color;
+    padding: 30px 0 80px 0;
+    .bluebtn {
+      margin: 0 auto;
+      @extend %blueButton;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+      &:active {
+        transform: scale(1);
+      }
+    }
+  }
+
+
