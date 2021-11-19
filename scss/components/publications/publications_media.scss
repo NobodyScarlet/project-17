@@ -1,3 +1,6 @@
+
+
+
 @media (max-width:$lg) {
   .publications {
     padding-top: 20px;
@@ -9,16 +12,13 @@
         margin: 0 20px 10px 20px;
         padding-bottom: 10px;
       }
-      .row {
+      .overflow  {
         margin-top: 0;
         .col {
           .publications__item {
             display: flex;
             flex-direction: column;
-            
-            span {
 
-            }
           }
         }
       }
@@ -29,12 +29,20 @@
   
 @media (max-width:$md) {
   .publications {
-    .shade__white {
     .container {
       p {
         display: none;
       }
+      .overflow {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding-bottom: 150px;
+      }
+      .row {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding-bottom: 150px;
+      }
     }
-  }
 }
 }
