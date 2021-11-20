@@ -151,7 +151,7 @@
   margin-right: 10px;
   margin-left: 10px; }
 
-.form__item h2, .phenomenon .container .phenomenon__wrapper .col-7 h1, .quality .container .quality__wrapper .col-4 h1, .article-team .container h1, .team-member .container .row .col h1, .services .container h1, .services__item .container .row .col h1, .publications .container h1, .team-carousel .container .carousel-inner .carousel-item .row .col-7 h1 {
+.form__item h2, .phenomenon .container .phenomenon__wrapper .col-7 h1, .quality .container .quality__wrapper .col-4 h1, .article-team .container h1, .team-member .container .row .col h1, .services .container h1, .services__item .container .row .col h1, .publications .container h1, .publication-entry .container .row article h1, .team-carousel .container .carousel-inner .carousel-item .row .col-7 h1 {
   background: linear-gradient(45deg, #F0145A 10%, #EF8080 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -704,7 +704,7 @@
   margin-right: 10px;
   margin-left: 10px; }
 
-.form__item h2, .phenomenon .container .phenomenon__wrapper .col-7 h1, .quality .container .quality__wrapper .col-4 h1, .article-team .container h1, .team-member .container .row .col h1, .services .container h1, .services__item .container .row .col h1, .publications .container h1, .team-carousel .container .carousel-inner .carousel-item .row .col-7 h1 {
+.form__item h2, .phenomenon .container .phenomenon__wrapper .col-7 h1, .quality .container .quality__wrapper .col-4 h1, .article-team .container h1, .team-member .container .row .col h1, .services .container h1, .services__item .container .row .col h1, .publications .container h1, .publication-entry .container .row article h1, .team-carousel .container .carousel-inner .carousel-item .row .col-7 h1 {
   background: linear-gradient(45deg, #F0145A 10%, #EF8080 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1152,7 +1152,7 @@
   margin-right: 10px;
   margin-left: 10px; }
 
-.form__item h2, .phenomenon .container .phenomenon__wrapper .col-7 h1, .quality .container .quality__wrapper .col-4 h1, .article-team .container h1, .team-member .container .row .col h1, .services .container h1, .services__item .container .row .col h1, .publications .container h1, .team-carousel .container .carousel-inner .carousel-item .row .col-7 h1 {
+.form__item h2, .phenomenon .container .phenomenon__wrapper .col-7 h1, .quality .container .quality__wrapper .col-4 h1, .article-team .container h1, .team-member .container .row .col h1, .services .container h1, .services__item .container .row .col h1, .publications .container h1, .publication-entry .container .row article h1, .team-carousel .container .carousel-inner .carousel-item .row .col-7 h1 {
   background: linear-gradient(45deg, #F0145A 10%, #EF8080 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1560,7 +1560,7 @@
   margin-right: 10px;
   margin-left: 10px; }
 
-.form__item h2, .phenomenon .container .phenomenon__wrapper .col-7 h1, .quality .container .quality__wrapper .col-4 h1, .article-team .container h1, .team-member .container .row .col h1, .services .container h1, .services__item .container .row .col h1, .publications .container h1, .team-carousel .container .carousel-inner .carousel-item .row .col-7 h1 {
+.form__item h2, .phenomenon .container .phenomenon__wrapper .col-7 h1, .quality .container .quality__wrapper .col-4 h1, .article-team .container h1, .team-member .container .row .col h1, .services .container h1, .services__item .container .row .col h1, .publications .container h1, .publication-entry .container .row article h1, .team-carousel .container .carousel-inner .carousel-item .row .col-7 h1 {
   background: linear-gradient(45deg, #F0145A 10%, #EF8080 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2052,7 +2052,7 @@
   margin-right: 10px;
   margin-left: 10px; }
 
-.form__item h2, .phenomenon .container .phenomenon__wrapper .col-7 h1, .quality .container .quality__wrapper .col-4 h1, .article-team .container h1, .team-member .container .row .col h1, .services .container h1, .services__item .container .row .col h1, .publications .container h1, .team-carousel .container .carousel-inner .carousel-item .row .col-7 h1 {
+.form__item h2, .phenomenon .container .phenomenon__wrapper .col-7 h1, .quality .container .quality__wrapper .col-4 h1, .article-team .container h1, .team-member .container .row .col h1, .services .container h1, .services__item .container .row .col h1, .publications .container h1, .publication-entry .container .row article h1, .team-carousel .container .carousel-inner .carousel-item .row .col-7 h1 {
   background: linear-gradient(45deg, #F0145A 10%, #EF8080 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2281,7 +2281,7 @@
 
 @media (max-width: 768px) {
   .services {
-    padding: 10px 0 0 10px; }
+    padding: 25px 0 0 10px; }
     .services .container .row {
       margin: 20px 10px 0 0;
       flex-direction: column; }
@@ -2544,7 +2544,7 @@
   margin-right: 10px;
   margin-left: 10px; }
 
-.form__item h2, .phenomenon .container .phenomenon__wrapper .col-7 h1, .quality .container .quality__wrapper .col-4 h1, .article-team .container h1, .team-member .container .row .col h1, .services .container h1, .services__item .container .row .col h1, .publications .container h1, .team-carousel .container .carousel-inner .carousel-item .row .col-7 h1 {
+.form__item h2, .phenomenon .container .phenomenon__wrapper .col-7 h1, .quality .container .quality__wrapper .col-4 h1, .article-team .container h1, .team-member .container .row .col h1, .services .container h1, .services__item .container .row .col h1, .publications .container h1, .publication-entry .container .row article h1, .team-carousel .container .carousel-inner .carousel-item .row .col-7 h1 {
   background: linear-gradient(45deg, #F0145A 10%, #EF8080 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2953,25 +2953,25 @@
         .publications .shade__white .shade__button button:active {
           transform: scale(1); }
 
-.carousel .carousel-inner .carousel-item .publications {
+.carouselmy .carousel-inner .carousel-item .publications {
   padding-top: 100px;
   margin-top: 50px; }
-.carousel .carousel-indicators > button.active,
-.carousel .carousel-indicators > button {
+.carouselmy .carousel-indicators > button.active,
+.carouselmy .carousel-indicators > button {
   width: 127px;
   height: 36px;
   text-indent: 0;
   border: 0px solid #fff;
   border-radius: 10px; }
-.carousel .carousel-indicators {
+.carouselmy .carousel-indicators {
   width: 260px;
   margin: 90px auto;
   height: 42px;
-  border-radius: 10px;
+  border-radius: 12px;
   background-color: #E6E6F0; }
-.carousel .carousel-indicators > button {
+.carouselmy .carousel-indicators > button {
   background-color: #E6E6F0; }
-.carousel .carousel-indicators > button.active {
+.carouselmy .carousel-indicators > button.active {
   background-color: #fff; }
 
 @media (max-width: 991px) {
@@ -3244,7 +3244,7 @@
   margin-right: 10px;
   margin-left: 10px; }
 
-.form__item h2, .phenomenon .container .phenomenon__wrapper .col-7 h1, .quality .container .quality__wrapper .col-4 h1, .article-team .container h1, .team-member .container .row .col h1, .services .container h1, .services__item .container .row .col h1, .publications .container h1, .team-carousel .container .carousel-inner .carousel-item .row .col-7 h1 {
+.form__item h2, .phenomenon .container .phenomenon__wrapper .col-7 h1, .quality .container .quality__wrapper .col-4 h1, .article-team .container h1, .team-member .container .row .col h1, .services .container h1, .services__item .container .row .col h1, .publications .container h1, .publication-entry .container .row article h1, .team-carousel .container .carousel-inner .carousel-item .row .col-7 h1 {
   background: linear-gradient(45deg, #F0145A 10%, #EF8080 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -3509,25 +3509,25 @@
         .publications .shade__white .shade__button button:active {
           transform: scale(1); }
 
-.carousel .carousel-inner .carousel-item .publications {
+.carouselmy .carousel-inner .carousel-item .publications {
   padding-top: 100px;
   margin-top: 50px; }
-.carousel .carousel-indicators > button.active,
-.carousel .carousel-indicators > button {
+.carouselmy .carousel-indicators > button.active,
+.carouselmy .carousel-indicators > button {
   width: 127px;
   height: 36px;
   text-indent: 0;
   border: 0px solid #fff;
   border-radius: 10px; }
-.carousel .carousel-indicators {
+.carouselmy .carousel-indicators {
   width: 260px;
   margin: 90px auto;
   height: 42px;
-  border-radius: 10px;
+  border-radius: 12px;
   background-color: #E6E6F0; }
-.carousel .carousel-indicators > button {
+.carouselmy .carousel-indicators > button {
   background-color: #E6E6F0; }
-.carousel .carousel-indicators > button.active {
+.carouselmy .carousel-indicators > button.active {
   background-color: #fff; }
 
 @media (max-width: 991px) {
@@ -3759,7 +3759,7 @@
   margin-right: 10px;
   margin-left: 10px; }
 
-.form__item h2, .phenomenon .container .phenomenon__wrapper .col-7 h1, .quality .container .quality__wrapper .col-4 h1, .article-team .container h1, .team-member .container .row .col h1, .services .container h1, .services__item .container .row .col h1, .publications .container h1, .team-carousel .container .carousel-inner .carousel-item .row .col-7 h1 {
+.form__item h2, .phenomenon .container .phenomenon__wrapper .col-7 h1, .quality .container .quality__wrapper .col-4 h1, .article-team .container h1, .team-member .container .row .col h1, .services .container h1, .services__item .container .row .col h1, .publications .container h1, .publication-entry .container .row article h1, .team-carousel .container .carousel-inner .carousel-item .row .col-7 h1 {
   background: linear-gradient(45deg, #F0145A 10%, #EF8080 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -3953,6 +3953,182 @@
       .head-white .container .row .navbar__desktop span,
       .head-white .container .row .navbar__desktop .dot {
         display: none; } }
+.publication-entry .container .row article {
+  max-width: 866px;
+  margin: 0 auto; }
+  .publication-entry .container .row article p {
+    font-size: 18px; }
+  .publication-entry .container .row article img {
+    width: 909px; }
+  .publication-entry .container .row article .personalization {
+    width: 640px; }
+  .publication-entry .container .row article h1 {
+    width: 906px;
+    font-size: 42px; }
+  .publication-entry .container .row article ol li {
+    font-size: 18px;
+    color: red; }
+    .publication-entry .container .row article ol li::marker {
+      font-weight: bold; }
+    .publication-entry .container .row article ol li span {
+      color: black;
+      margin-left: 10px; }
+  .publication-entry .container .row article span {
+    color: #B3B3BA; }
+    .publication-entry .container .row article span:not(:last-of-type) {
+      margin-bottom: 20px;
+      font-size: 12px; }
+  .publication-entry .container .row article .borderedp {
+    padding-top: 50px; }
+    .publication-entry .container .row article .borderedp:first-of-type {
+      border-top: 4px solid #F5F5FA; }
+    .publication-entry .container .row article .borderedp:last-of-type {
+      border-bottom: 4px solid #F5F5FA; }
+  .publication-entry .container .row article .square-contacts {
+    display: flex;
+    align-self: flex-start; }
+    .publication-entry .container .row article .square-contacts .square-wrapper {
+      background-color: #F5F5FA;
+      width: 42px;
+      height: 42px;
+      border-radius: 12px; }
+      .publication-entry .container .row article .square-contacts .square-wrapper:not(:first-child) {
+        margin-left: 10px; }
+      .publication-entry .container .row article .square-contacts .square-wrapper img {
+        width: 24px;
+        position: relative;
+        top: 20%;
+        left: 20%; }
+
+@media (max-width: 991px) {
+  .publication-entry .container .row article h1,
+  .publication-entry .container .row article img {
+    width: 100%; } }
+@media (max-width: 768px) {
+  .publication-entry .container .row article h1 {
+    font-size: 32px; }
+  .publication-entry .container .row article .borderedp {
+    padding-top: 20px; }
+  .publication-entry .container .row article .personalization {
+    width: 100%; }
+  .publication-entry .container .row article .square-contacts {
+    align-self: center; } }
+.publications {
+  background-color: #F5F5FA;
+  padding-top: 40px; }
+  .publications .container {
+    position: relative; }
+    .publications .container h5 {
+      margin-top: 20px;
+      color: #24A3FF;
+      text-transform: uppercase;
+      font-size: 14px; }
+    .publications .container h6 {
+      color: #24A3FF;
+      margin: 20px; }
+    .publications .container span {
+      color: #B3B3BA; }
+    .publications .container p {
+      margin-top: 20px;
+      padding-top: 20px;
+      border-top: 4px solid #B3B3BA; }
+    .publications .container span,
+    .publications .container p {
+      margin: 20px;
+      padding-bottom: 20px; }
+    .publications .container .row .col .publications__item {
+      background-color: #fff;
+      border: 1px solid #F5F5FA;
+      border-radius: 12px;
+      margin-top: 20px; }
+      .publications .container .row .col .publications__item img {
+        width: 100%; }
+    .publications .container .overflow {
+      margin-top: 40px;
+      max-height: calc(100vh - 56px);
+      overflow-x: hidden;
+      overflow-y: auto;
+      padding-bottom: 70px; }
+      .publications .container .overflow .col .publications__item {
+        background-color: #fff;
+        border: 1px solid #F5F5FA;
+        border-radius: 12px;
+        margin-top: 20px; }
+        .publications .container .overflow .col .publications__item img {
+          width: 100%; }
+  .publications .btn__wrapper .btn {
+    display: flex;
+    justify-content: center; }
+    .publications .btn__wrapper .btn button {
+      position: unset; }
+      .publications .btn__wrapper .btn button:hover {
+        transform: scale(1.2); }
+      .publications .btn__wrapper .btn button:active {
+        transform: scale(1); }
+  .publications .shade__white {
+    background-image: url(./../images/shade2.svg);
+    position: absolute;
+    background-size: cover;
+    right: 1px;
+    height: 200px;
+    width: 100%;
+    bottom: 0px;
+    pointer-events: none; }
+    .publications .shade__white .shade__button {
+      display: flex;
+      justify-content: center; }
+      .publications .shade__white .shade__button button {
+        position: absolute; }
+        .publications .shade__white .shade__button button:hover {
+          transform: scale(1.2); }
+        .publications .shade__white .shade__button button:active {
+          transform: scale(1); }
+
+.carouselmy .carousel-inner .carousel-item .publications {
+  padding-top: 100px;
+  margin-top: 50px; }
+.carouselmy .carousel-indicators > button.active,
+.carouselmy .carousel-indicators > button {
+  width: 127px;
+  height: 36px;
+  text-indent: 0;
+  border: 0px solid #fff;
+  border-radius: 10px; }
+.carouselmy .carousel-indicators {
+  width: 260px;
+  margin: 90px auto;
+  height: 42px;
+  border-radius: 12px;
+  background-color: #E6E6F0; }
+.carouselmy .carousel-indicators > button {
+  background-color: #E6E6F0; }
+.carouselmy .carousel-indicators > button.active {
+  background-color: #fff; }
+
+@media (max-width: 991px) {
+  .publications {
+    padding-top: 20px; }
+    .publications .container p {
+      margin: 0 20px 10px 20px; }
+    .publications .container span {
+      margin: 0 20px 10px 20px;
+      padding-bottom: 10px; }
+    .publications .container .overflow {
+      margin-top: 0; }
+      .publications .container .overflow .col .publications__item {
+        display: flex;
+        flex-direction: column; } }
+@media (max-width: 768px) {
+  .publications .container p {
+    display: none; }
+  .publications .container .overflow {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-bottom: 150px; }
+  .publications .container .row {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-bottom: 150px; } }
 @font-face {
   font-family: 'TT Norms';
   src: url("./../fonts/Norm/TTNorms-ExtraBoldItalic.eot");
@@ -4106,7 +4282,7 @@
   margin-right: 10px;
   margin-left: 10px; }
 
-.form__item h2, .phenomenon .container .phenomenon__wrapper .col-7 h1, .quality .container .quality__wrapper .col-4 h1, .article-team .container h1, .team-member .container .row .col h1, .services .container h1, .services__item .container .row .col h1, .publications .container h1, .team-carousel .container .carousel-inner .carousel-item .row .col-7 h1 {
+.form__item h2, .phenomenon .container .phenomenon__wrapper .col-7 h1, .quality .container .quality__wrapper .col-4 h1, .article-team .container h1, .team-member .container .row .col h1, .services .container h1, .services__item .container .row .col h1, .publications .container h1, .publication-entry .container .row article h1, .team-carousel .container .carousel-inner .carousel-item .row .col-7 h1 {
   background: linear-gradient(45deg, #F0145A 10%, #EF8080 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -4447,7 +4623,7 @@
 
 @media (max-width: 768px) {
   .services {
-    padding: 10px 0 0 10px; }
+    padding: 25px 0 0 10px; }
     .services .container .row {
       margin: 20px 10px 0 0;
       flex-direction: column; }
@@ -4467,7 +4643,8 @@
     max-width: 260px;
     font-size: 18px; } }
 .team-carousel {
-  margin-top: 40px; }
+  margin-top: 40px;
+  margin-bottom: 40px; }
   .team-carousel .container .carousel-indicators {
     margin-bottom: -40px; }
   .team-carousel .container .carousel-inner {
@@ -4711,25 +4888,25 @@
         .publications .shade__white .shade__button button:active {
           transform: scale(1); }
 
-.carousel .carousel-inner .carousel-item .publications {
+.carouselmy .carousel-inner .carousel-item .publications {
   padding-top: 100px;
   margin-top: 50px; }
-.carousel .carousel-indicators > button.active,
-.carousel .carousel-indicators > button {
+.carouselmy .carousel-indicators > button.active,
+.carouselmy .carousel-indicators > button {
   width: 127px;
   height: 36px;
   text-indent: 0;
   border: 0px solid #fff;
   border-radius: 10px; }
-.carousel .carousel-indicators {
+.carouselmy .carousel-indicators {
   width: 260px;
   margin: 90px auto;
   height: 42px;
-  border-radius: 10px;
+  border-radius: 12px;
   background-color: #E6E6F0; }
-.carousel .carousel-indicators > button {
+.carouselmy .carousel-indicators > button {
   background-color: #E6E6F0; }
-.carousel .carousel-indicators > button.active {
+.carouselmy .carousel-indicators > button.active {
   background-color: #fff; }
 
 @media (max-width: 991px) {

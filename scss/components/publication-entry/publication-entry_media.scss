@@ -1,0 +1,39 @@
+@media (max-width:$lg) {
+ .publication-entry {
+   .container {
+     .row {
+       article {
+         h1,
+         img {
+           width: 100%;
+         }
+       }
+     }
+   }
+ }
+}
+
+
+@media (max-width:$md) {
+  .publication-entry {
+    .container {
+      .row {
+        article {
+          h1 {
+            font-size: 32px;
+          }
+          .borderedp {
+            padding-top: 20px;
+          }
+         .personalization {
+           width: 100%;
+         }
+         .square-contacts {
+           align-self: center;
+         }
+        }
+      }
+    }
+  }
+ }
+ 

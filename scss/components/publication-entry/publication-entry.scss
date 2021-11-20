@@ -1,0 +1,78 @@
+.publication-entry {
+  .container {
+    .row {
+      article {
+        max-width: 866px;
+        margin: 0 auto;
+
+        p {
+          font-size: 18px;
+        }
+
+        img {
+          width: 909px;
+        }
+        .personalization {
+          width: 640px;
+        }
+
+        h1 {
+          @extend %clr;
+          width: 906px;
+          font-size: 42px;
+        }
+        ol {
+          li {
+            font-size: 18px;
+            color: red;
+
+            &::marker {
+              font-weight: bold;
+            }
+            span {
+              color: black;
+              margin-left: 10px;
+            }
+          }
+        }
+        span {
+          color: $third-color;
+
+          &:not(:last-of-type) {
+            margin-bottom: 20px;
+            font-size: 12px;
+          }
+        }
+        .borderedp {
+          padding-top: 50px;
+          &:first-of-type {
+            border-top: 4px solid $lightGray;
+          }
+          &:last-of-type {
+            border-bottom: 4px solid $lightGray ;
+          }
+        }
+        .square-contacts {
+          display: flex;
+          align-self: flex-start;
+          .square-wrapper {
+            background-color: $lightGray;
+            width: 42px;
+            height: 42px;
+            border-radius: 12px;
+            
+           &:not(:first-child) {
+             margin-left: 10px;
+           }
+            img {
+              width: 24px;
+              position: relative;
+              top: 20%;
+              left: 20%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
